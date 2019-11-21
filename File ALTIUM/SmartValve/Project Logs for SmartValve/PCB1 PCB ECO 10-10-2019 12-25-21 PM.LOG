@@ -1,0 +1,148 @@
+Added Component: Designator=C1(Header6)
+Added Component: Designator=C2(JP15-C1T)
+Added Component: Designator=C3(JP15-C1T)
+Added Component: Designator=Cx1(CN1.5)
+Added Component: Designator=Cx2(CN1.5)
+Added Component: Designator=Cx3(CN1.5)
+Added Component: Designator=Cx4(CN1.5)
+Added Component: Designator=D1(DIO-5A)
+Added Component: Designator=JDC1(DC0)
+Added Component: Designator=M1(NodeMCU ESP8266)
+Added Component: Designator=R1(RES-1/8WD)
+Added Component: Designator=R2(RES-1/8WD)
+Added Component: Designator=R3(RES-1/8WD)
+Added Component: Designator=R4(RES-1/8WD)
+Added Component: Designator=R_M1(Relay_4_Modul)
+Added Pin To Net: NetName=5V Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-6
+Added Pin To Net: NetName=5V Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=GND Pin=Cx1-1
+Added Pin To Net: NetName=GND Pin=Cx2-1
+Added Pin To Net: NetName=GND Pin=Cx3-1
+Added Pin To Net: NetName=GND Pin=Cx4-1
+Added Pin To Net: NetName=24V Pin=D1-2
+Added Pin To Net: NetName=GND Pin=JDC1-2
+Added Pin To Net: NetName=GND Pin=M1-14
+Added Pin To Net: NetName=5V Pin=M1-15
+Added Pin To Net: NetName=5V Pin=R4-2
+Added Pin To Net: NetName=BUTTON1 Pin=C3-3
+Added Pin To Net: NetName=BUTTON1 Pin=Cx1-2
+Added Pin To Net: NetName=BUTTON1 Pin=M1-28
+Added Pin To Net: NetName=BUTTON1 Pin=R1-1
+Added Net: Name=BUTTON1
+Added Pin To Net: NetName=BUTTON2 Pin=C3-4
+Added Pin To Net: NetName=BUTTON2 Pin=Cx2-2
+Added Pin To Net: NetName=BUTTON2 Pin=M1-27
+Added Pin To Net: NetName=BUTTON2 Pin=R2-1
+Added Net: Name=BUTTON2
+Added Pin To Net: NetName=BUTTON3 Pin=C3-5
+Added Pin To Net: NetName=BUTTON3 Pin=Cx3-2
+Added Pin To Net: NetName=BUTTON3 Pin=M1-26
+Added Pin To Net: NetName=BUTTON3 Pin=R3-1
+Added Net: Name=BUTTON3
+Added Pin To Net: NetName=INT1 Pin=C1-5
+Added Pin To Net: NetName=INT1 Pin=C3-8
+Added Pin To Net: NetName=INT1 Pin=M1-23
+Added Net: Name=INT1
+Added Pin To Net: NetName=INT2 Pin=C1-4
+Added Pin To Net: NetName=INT2 Pin=C3-9
+Added Pin To Net: NetName=INT2 Pin=M1-22
+Added Net: Name=INT2
+Added Pin To Net: NetName=INT3 Pin=C1-3
+Added Pin To Net: NetName=INT3 Pin=C3-10
+Added Pin To Net: NetName=INT3 Pin=M1-21
+Added Net: Name=INT3
+Added Pin To Net: NetName=INT4 Pin=C1-2
+Added Pin To Net: NetName=INT4 Pin=C3-11
+Added Pin To Net: NetName=INT4 Pin=M1-20
+Added Net: Name=INT4
+Added Pin To Net: NetName=NetC2_4 Pin=C2-4
+Added Pin To Net: NetName=NetC2_4 Pin=M1-12
+Added Net: Name=NetC2_4
+Added Pin To Net: NetName=NetC2_5 Pin=C2-5
+Added Pin To Net: NetName=NetC2_5 Pin=M1-11
+Added Net: Name=NetC2_5
+Added Pin To Net: NetName=NetC2_6 Pin=C2-6
+Added Pin To Net: NetName=NetC2_6 Pin=M1-10
+Added Net: Name=NetC2_6
+Added Pin To Net: NetName=NetC2_7 Pin=C2-7
+Added Pin To Net: NetName=NetC2_7 Pin=M1-9
+Added Net: Name=NetC2_7
+Added Pin To Net: NetName=NetC2_8 Pin=C2-8
+Added Pin To Net: NetName=NetC2_8 Pin=M1-8
+Added Net: Name=NetC2_8
+Added Pin To Net: NetName=NetC2_9 Pin=C2-9
+Added Pin To Net: NetName=NetC2_9 Pin=M1-7
+Added Net: Name=NetC2_9
+Added Pin To Net: NetName=NetC2_10 Pin=C2-10
+Added Pin To Net: NetName=NetC2_10 Pin=M1-6
+Added Net: Name=NetC2_10
+Added Pin To Net: NetName=NetC2_11 Pin=C2-11
+Added Pin To Net: NetName=NetC2_11 Pin=M1-5
+Added Net: Name=NetC2_11
+Added Pin To Net: NetName=NetC2_12 Pin=C2-12
+Added Pin To Net: NetName=NetC2_12 Pin=M1-4
+Added Net: Name=NetC2_12
+Added Pin To Net: NetName=NetC2_13 Pin=C2-13
+Added Pin To Net: NetName=NetC2_13 Pin=M1-3
+Added Net: Name=NetC2_13
+Added Pin To Net: NetName=NetC2_14 Pin=C2-14
+Added Pin To Net: NetName=NetC2_14 Pin=M1-2
+Added Net: Name=NetC2_14
+Added Pin To Net: NetName=NetC2_15 Pin=C2-15
+Added Pin To Net: NetName=NetC2_15 Pin=M1-1
+Added Net: Name=NetC2_15
+Added Pin To Net: NetName=NetC3_1 Pin=C3-1
+Added Pin To Net: NetName=NetC3_1 Pin=M1-30
+Added Net: Name=NetC3_1
+Added Pin To Net: NetName=NetC3_2 Pin=C3-2
+Added Pin To Net: NetName=NetC3_2 Pin=M1-29
+Added Net: Name=NetC3_2
+Added Pin To Net: NetName=NetC3_6 Pin=C3-6
+Added Pin To Net: NetName=NetC3_6 Pin=M1-25
+Added Net: Name=NetC3_6
+Added Pin To Net: NetName=NetC3_7 Pin=C3-7
+Added Pin To Net: NetName=NetC3_7 Pin=M1-24
+Added Net: Name=NetC3_7
+Added Pin To Net: NetName=NetC3_12 Pin=C3-12
+Added Pin To Net: NetName=NetC3_12 Pin=M1-19
+Added Net: Name=NetC3_12
+Added Pin To Net: NetName=NetC3_13 Pin=C3-13
+Added Pin To Net: NetName=NetC3_13 Pin=M1-18
+Added Net: Name=NetC3_13
+Added Pin To Net: NetName=NetC3_14 Pin=C3-14
+Added Pin To Net: NetName=NetC3_14 Pin=M1-17
+Added Net: Name=NetC3_14
+Added Pin To Net: NetName=NetC3_15 Pin=C3-15
+Added Pin To Net: NetName=NetC3_15 Pin=M1-16
+Added Net: Name=NetC3_15
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetJDC1_1 Pin=JDC1-1
+Added Net: Name=NetJDC1_1
+Added Pin To Net: NetName=RST Pin=C2-3
+Added Pin To Net: NetName=RST Pin=Cx4-2
+Added Pin To Net: NetName=RST Pin=M1-13
+Added Pin To Net: NetName=RST Pin=R4-1
+Added Net: Name=RST
+Added Pin To Net: NetName=VCC Pin=R1-2
+Added Pin To Net: NetName=VCC Pin=R2-2
+Added Pin To Net: NetName=VCC Pin=R3-2
+Added Net: Name=VCC
+Added Member To Class: ClassName=Sheet1 Member=Component C1 Modul Relay
+Added Member To Class: ClassName=Sheet1 Member=Component C2 JP15
+Added Member To Class: ClassName=Sheet1 Member=Component C3 JP15
+Added Member To Class: ClassName=Sheet1 Member=Component Cx1 XXpF
+Added Member To Class: ClassName=Sheet1 Member=Component Cx2 XXpF
+Added Member To Class: ClassName=Sheet1 Member=Component Cx3 XXpF
+Added Member To Class: ClassName=Sheet1 Member=Component Cx4 XXpF
+Added Member To Class: ClassName=Sheet1 Member=Component D1 Diode
+Added Member To Class: ClassName=Sheet1 Member=Component JDC1 Power
+Added Member To Class: ClassName=Sheet1 Member=Component M1 NodeMCU ESP8266
+Added Member To Class: ClassName=Sheet1 Member=Component R1 Res
+Added Member To Class: ClassName=Sheet1 Member=Component R2 Res
+Added Member To Class: ClassName=Sheet1 Member=Component R3 Res
+Added Member To Class: ClassName=Sheet1 Member=Component R4 Res
+Added Member To Class: ClassName=Sheet1 Member=Component R_M1 ModulRelay
+Added Room: Name=Sheet1

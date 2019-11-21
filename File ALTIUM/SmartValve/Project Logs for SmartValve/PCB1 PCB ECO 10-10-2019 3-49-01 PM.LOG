@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=GND Pin=R4-1
+Removed Pin From Net: NetName=NetLED1_2 Pin=R4-2
+Change Component Footprint: Designator=R4 Old Footprint=RES-1/8WD New Footprint=RES-1/4W
+Added Pin To Net: NetName=NetLED1_2 Pin=R4-1
+Added Pin To Net: NetName=GND Pin=R4-2
+Added Member To Class: ClassName=Sheet1 Member=Component R4 Res

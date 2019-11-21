@@ -1,0 +1,25 @@
+Added Component: Designator=JP1(Header-2P)
+Added Component: Designator=JP2(Header-2P)
+Added Component: Designator=JP3(Header-2P)
+Added Component: Designator=JP4(Header-2P)
+Added Component: Designator=JP5(Header-2P)
+Added Component: Designator=JP6(Header-2P)
+Added Pin To Net: NetName=NetJDC1_1 Pin=JP1-1
+Added Pin To Net: NetName=NetD1_1 Pin=JP1-2
+Added Pin To Net: NetName=GND Pin=JP2-1
+Added Pin To Net: NetName=24V Pin=JP2-2
+Added Pin To Net: NetName=GND Pin=JP3-1
+Added Pin To Net: NetName=BUTTON1 Pin=JP3-2
+Added Pin To Net: NetName=GND Pin=JP4-1
+Added Pin To Net: NetName=BUTTON2 Pin=JP4-2
+Added Pin To Net: NetName=GND Pin=JP5-1
+Added Pin To Net: NetName=BUTTON3 Pin=JP5-2
+Added Pin To Net: NetName=GND Pin=JP6-1
+Added Pin To Net: NetName=RST Pin=JP6-2
+Added Member To Class: ClassName=Sheet1 Member=Component JP1 Header-2P
+Added Member To Class: ClassName=Sheet1 Member=Component JP2 Header-2P
+Added Member To Class: ClassName=Sheet1 Member=Component JP3 Header-2P
+Added Member To Class: ClassName=Sheet1 Member=Component JP4 Header-2P
+Added Member To Class: ClassName=Sheet1 Member=Component JP5 Header-2P
+Added Member To Class: ClassName=Sheet1 Member=Component JP6 Header-2P
+Added Room: Name=Sheet1

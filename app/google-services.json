@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "562463374715",
+    "firebase_url": "https://smartvalve-beffe.firebaseio.com",
+    "project_id": "smartvalve-beffe",
+    "storage_bucket": "smartvalve-beffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562463374715:android:f8dc233eaab3f641cc51de",
+        "android_client_info": {
+          "package_name": "com.example.smartvalve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562463374715-civlrer7s33m0giam65nj55s7o5tsi8c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyNOBOYHA51ww65X9kCSjE29GCM5_qMZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562463374715-civlrer7s33m0giam65nj55s7o5tsi8c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

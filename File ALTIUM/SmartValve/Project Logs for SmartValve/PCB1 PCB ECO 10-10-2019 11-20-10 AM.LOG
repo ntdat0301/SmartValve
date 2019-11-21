@@ -1,0 +1,10 @@
+Added Component: Designator=D?(DIO-5A)
+Added Component: Designator=M?(NodeMCU ESP8266)
+Added Net: Name=5V
+Added Pin To Net: NetName=24V Pin=D?-2
+Added Net: Name=24V
+Added Net: Name=GND
+Added Pin To Net: NetName=NetD?_1 Pin=D?-1
+Added Net: Name=NetD?_1
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1
