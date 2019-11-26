@@ -23,10 +23,9 @@ import com.google.firebase.database.FirebaseDatabase;
 
 
 public class MainActivity extends AppCompatActivity {
-    private FirebaseAuth mAuth;
-    public DatabaseReference mDatabase;
     public static String username;
     public static String usernameUSER;
+    public DatabaseReference mDatabase;
     String USERNAME_KEY = "user";
     String PASSWORD_KEY = "pass";
     String CHECK_BOX;
@@ -39,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     CheckBox checkBox;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
-
+    private FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,12 +48,12 @@ public class MainActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
-        btnLogin = (Button) findViewById(R.id.buttonLogin);
-        edtUser = (EditText) findViewById(R.id.editID);
-        edtPass = (EditText) findViewById(R.id.editPassword);
-        txtRegister = (TextView) findViewById(R.id.tvRegister);
-        txtForgetPass = (TextView) findViewById(R.id.tvForgot);
-        checkBox = (CheckBox) findViewById(R.id.cbRemember);
+        btnLogin = findViewById(R.id.buttonLogin);
+        edtUser = findViewById(R.id.editID);
+        edtPass = findViewById(R.id.editPassword);
+        txtRegister = findViewById(R.id.tvRegister);
+        txtForgetPass = findViewById(R.id.tvForgot);
+        checkBox = findViewById(R.id.cbRemember);
 
         // Không cho ứng dụng khác lấy tài khoản với mật khẩu của mình
         sharedPreferences = getSharedPreferences("loginPrefs", MODE_PRIVATE);
@@ -103,11 +102,10 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
-                                username="";
-                                String USERNAMEthunghiem=edtUser.getText().toString();
-                                for( int t=0;t<(USERNAMEthunghiem.length()-10);t++)
-                                {
-                                    username=username+USERNAMEthunghiem.charAt(t);
+                                username = "";
+                                String USERNAMEthunghiem = edtUser.getText().toString();
+                                for (int t = 0; t < (USERNAMEthunghiem.length() - 10); t++) {
+                                    username = username + USERNAMEthunghiem.charAt(t);
                                 }
 
                                 Toast.makeText(MainActivity.this, "Login Completely!", Toast.LENGTH_SHORT).show();
@@ -123,10 +121,10 @@ public class MainActivity extends AppCompatActivity {
                                     editor.putBoolean(CHECK_BOX, false);
                                     editor.commit();
                                 }
-        usernameUSER=email;
-        Intent intent = new Intent(MainActivity.this, AllDevices.class);
-        intent.setAction(Intent.ACTION_VIEW);
-        startActivity(intent);
+                                usernameUSER = email;
+                                Intent intent = new Intent(MainActivity.this, AllDevices.class);
+                                intent.setAction(Intent.ACTION_VIEW);
+                                startActivity(intent);
                             } else {
 
                                 Toast.makeText(MainActivity.this, "Login Failed!", Toast.LENGTH_SHORT).show();
@@ -138,6 +136,7 @@ public class MainActivity extends AppCompatActivity {
 
         }
     }
+
     public void RunLogin() {
         // Khởi tạo progressBar với đối là Context
         progressBar = new ProgressDialog(MainActivity.this);
